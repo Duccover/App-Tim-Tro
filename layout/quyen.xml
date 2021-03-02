@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/nen"
+    >
+
+    <Button
+        android:id="@+id/tim"
+        android:layout_width="205dp"
+        android:layout_height="79dp"
+        android:layout_x="94dp"
+        android:layout_y="215dp"
+        android:text=" Tìm phòng" />
+
+    <Button
+        android:id="@+id/chothue"
+        android:layout_width="206dp"
+        android:layout_height="81dp"
+        android:layout_x="94dp"
+        android:layout_y="321dp"
+        android:text=" cho thuê phòng" />
+
+
+    <TextView
+        android:layout_width="346dp"
+        android:layout_height="128dp"
+        android:layout_x="28dp"
+        android:layout_y="73dp"
+        android:gravity="center_horizontal"
+        android:text="Xin Chào,Bạn có nhu cầu gì? "
+        android:textAlignment="center"
+        android:textSize="40dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="313dp"
+        android:layout_height="51dp"
+        android:layout_x="57dp"
+        android:layout_y="663dp"
+        android:text="Designed By Duc"
+        android:textSize="30dp" />
+
+</AbsoluteLayout>
