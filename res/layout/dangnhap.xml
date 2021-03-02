@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+  android:background="@drawable/nen"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/tk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="135dp"
+        android:layout_y="117dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Tên đăng nhập"/>
+
+    <EditText
+        android:id="@+id/mk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="135dp"
+        android:layout_y="180dp"
+        android:hint="Mật khẩu"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:onClick="clickbtn"
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="167dp"
+        android:layout_y="280dp"
+
+        android:text="Đăng nhập" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="35dp"
+        android:layout_y="360dp"
+        android:text="Quên mật khẩu?" />
+
+    <TextView
+        android:onClick="dky"
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="304dp"
+        android:layout_y="362dp"
+        android:text="Đăng ký" />
+
+    <ImageView
+        android:onClick="google"
+        android:id="@+id/imageView"
+        android:layout_width="54dp"
+        android:layout_height="45dp"
+        android:layout_x="89dp"
+        android:layout_y="458dp"
+        app:srcCompat="@drawable/google" />
+
+    <ImageView
+        android:onClick="facebook"
+        android:id="@+id/imageView3"
+        android:layout_width="57dp"
+        android:layout_height="45dp"
+        android:layout_x="280dp"
+        android:layout_y="460dp"
+        app:srcCompat="@drawable/facebook" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="144dp"
+        android:layout_y="413dp"
+        android:text="Hoặc đăng nhập với" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="52dp"
+        android:layout_y="115dp"
+        app:srcCompat="@drawable/icon_user" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="52dp"
+        android:layout_y="178dp"
+        app:srcCompat="@drawable/icon_pass" />
+
+</AbsoluteLayout>
